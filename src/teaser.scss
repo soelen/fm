@@ -1,0 +1,14 @@
+.teaser {
+
+    text-transform: uppercase;
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top;
+
+    &-calendar {
+        background-image: url(https://www.fussballmafia.de/cms/images/kalender-min.jpg);
+
+    }
+
+}

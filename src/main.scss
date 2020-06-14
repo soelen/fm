@@ -1,0 +1,19 @@
+
+@import "teaser";
+@import "footer";
+@import "helper";
+
+// Overwriting defaults
+
+// check out node_modules/bootstrap/scss/variables.scss to see
+// which variables you can overwrite
+
+$border-radius: 0;
+$border-radius-lg: 0;
+$border-radius-sm: 0;
+
+$body-bg: $fm-white;
+$primary: $fm-primary;
+$dark: $fm-dark;
+
+@import "~bootstrap/scss/bootstrap";

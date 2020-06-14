@@ -1,0 +1,17 @@
+{
+  "name": "fussballmafia-goes-bootstrap",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "node-sass src/main.scss dist/main.css --importer=node_modules/node-sass-tilde-importer --watch",
+    "build": "node-sass src/main.scss dist/prod.css --importer=node_modules/node-sass-tilde-importer --output-style compressed"
+  },
+  "keywords": [],
+  "author": "Uwe Sölen Flaig",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass-tilde-importer": "^1.0.2",
+    "bootstrap": "^4.5.0",
+    "node-sass": "^4.14.1"
+  }
+}

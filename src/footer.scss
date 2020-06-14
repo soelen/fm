@@ -1,0 +1,28 @@
+@import "variables";
+
+#site-footer {
+    hr {
+        border-top: 1px solid $fm-white;
+    }
+    h3 {
+        font-size: 1rem;
+        text-transform: uppercase;
+    }
+    h3:after {
+        content: "";
+        display:block;
+        border-bottom: 1px solid $fm-dark-light;
+        width: 70px;
+        margin-top: 1rem;
+    }
+    ul {
+        padding: 0;
+    }
+    li {
+        list-style-type: none;
+        margin-bottom: .5rem;
+        a {
+            color: $fm-white;
+        }
+    } 
+}
